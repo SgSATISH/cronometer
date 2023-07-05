@@ -1,0 +1,297 @@
+.dairy {
+  width: 1300px;
+  /* border: 5px solid red; */
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  /* gap: 70px; */
+  justify-content: space-around;
+}
+
+.firstbox {
+  text-align: center;
+  display: grid;
+  /* border-bottom: 1px solid rgb(124, 122, 122); */
+  width: 40%;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.secondBox {
+  width: 70%;
+  /* border: 10px solid red; */
+  margin-left: 50px;
+ 
+}
+.contain {
+  display: flex;
+  gap: 50px;
+  height: 50px;
+  width: 100%;
+}
+.contain > button {
+  height: 30px;
+  margin-top: 15px;
+}
+.contain > button > span {
+  padding-right: 10px;
+  padding-top: 4px;
+  color: blue;
+}
+
+.symbol {
+  gap: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.date > h4 {
+  font-size: larger;
+  font-weight: 700;
+  color: rgb(219, 91, 16);
+  display: flex;
+  gap: 20px;
+}
+.h5 {
+  font-size: larger;
+  font-weight: 500;
+  margin-top: 30px;
+  border-bottom: 1px solid grey;
+}
+.logof {
+  color: red;
+  margin-right: 10px;
+  text-align: center;
+  font-size: large;
+}
+.logoL {
+  color: rgb(245, 205, 28);
+  padding-right: 10px;
+  text-align: center;
+  font-size: large;
+}
+.logoB {
+  color: rgb(25, 0, 255);
+  font-size: large;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.threedots {
+  margin-top: 20px;
+  margin-left: 90px;
+}
+.tablemain{ 
+    /* border: 1px solid rgb(165, 33, 16); */
+    width: 100%;
+    height: 300px;
+overflow-y:auto;
+overflow-x: hidden;
+} 
+
+.tableinside {
+  display: flex;
+  border-bottom: 1px solid rgb(124, 122, 122);
+}
+.tableA {
+  padding-left: 270px;
+}
+.tableU {
+  padding-left: 20px;
+}
+.tableshow {
+  display: flex;
+  font-size: 14px;
+  width: 800px;
+
+  box-sizing: border-box;
+ 
+}
+.tableshow>p{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.tableshow:hover{
+  background-color:rgba(128, 128, 128, 0.249);
+}
+.tableAa {
+  padding-left: 350px;
+}
+.nutBox {
+  display: flex;
+}
+.imggraph {
+  /* border: 1px solid rgb(15, 10, 10); */
+  width: 1200px;
+}
+.pia {
+  /* border: 1px solid red; */
+  /* margin-left: 370px; */
+  width: 100%;
+  /* height: 60px; */
+  /* padding-top: 20px; */
+  margin-right: 20px;
+}
+.piaFirst {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 50%;
+  gap: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.chart {
+  /* border: 1px solid red; */
+  width: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 150px;
+}
+
+.nuttable {
+  display: flex;
+  gap: 100px;
+  margin-top: 45px;
+}
+.h1border {
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+.con {
+  display: flex;
+}
+.consecond {
+  /* margin-left: 370px; */
+  /* border: 10px solid red; */
+  width: 1000px;
+  margin-bottom: 30px;
+}
+.circles {
+  display: flex;
+  gap: 20px;
+}
+.circleNut {
+  margin-top: 20px;
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 50px;
+}
+.circleNut > h2 {
+  font-size: large;
+  font-weight: bold;
+}
+.table2A{
+   /* border: 1px solid red; */
+   margin-left: 225px;
+}
+
+.a:after {
+  content: "13%";
+}
+.a:hover:after {
+  content: "5.1";
+}
+.A:after {
+  content: "Fiber";
+}
+.A:hover:after {
+  content: "g";
+}
+
+.b:after {
+  content: "3%";
+}
+.b:hover:after {
+  content: "0.3";
+}
+.B:after {
+  content: "Iron";
+}
+.B:hover:after {
+  content: "mg";
+}
+
+.c:after {
+  content: "1%";
+}
+.c:hover:after {
+  content: "12.3";
+}
+.C:after {
+  content: "Calcium";
+}
+.C:hover:after {
+  content: "mg";
+}
+
+.d:after {
+  content: "0%";
+}
+.d:hover:after {
+  content: "5.8";
+}
+.D:after {
+  content: "Vit.A";
+}
+.D:hover:after {
+  content: "ug";
+}
+
+.e:after {
+  content: "12%";
+}
+.e:hover:after {
+  content: "10.8";
+}
+.E:after {
+  content: "Vit.C";
+}
+.E:hover:after {
+  content: "mg";
+}
+
+.f:after {
+  content: "0%";
+}
+.f:hover:after {
+  content: "0.0";
+}
+.F:after {
+  content: "Vit.B12";
+}
+.F:hover:after {
+  content: "ug";
+}
+
+.g:after {
+  content: "2%";
+}
+.g:hover:after {
+  content: "11.1";
+}
+.G:after {
+  content: "folate";
+}
+.G:hover:after {
+  content: "ug";
+}
+
+.h:after {
+  content: "8%";
+}
+.h:hover:after {
+  content: "296.2";
+}
+.H:after {
+  content: "Potassium";
+}
+.H:hover:after {
+  content: "mg";
+}

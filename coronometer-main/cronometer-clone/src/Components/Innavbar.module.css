@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    /* border: 1px solid rgb(207, 37, 37); */
+    border-bottom: 1px solid grey;
+    gap: 300px;
+}
+.logo{
+ width: 250px;
+
+}
+.links{
+    /* border: 1px solid rgb(32, 18, 18); */
+    gap: 60px;
+    display: flex;
+    padding-top: 22px;
+    font-size: x-large;
+    font-weight: 700;
+    
+}
+.link{
+    text-decoration: none;
+    color: rgb(221, 99, 17);
+}
+.link:hover{
+    text-decoration: none;
+    color: rgb(175, 50, 33);
+}
+/* .logout{
+    border: 1px solid red;
+} */
